@@ -17,7 +17,7 @@ public class Main {
                     else massive[x][y]='#';
                     System.out.print(massive[x][y]+" ");
                 }
-
+                System.out.println(" ");
 
             }
             return massive;
