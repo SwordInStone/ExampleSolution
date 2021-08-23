@@ -6,19 +6,15 @@ public class ShowSequence {
         System.out.println(showSequence(7));
     }
     public static String showSequence(int value){
+        if(value<0)return "value < 0";
         Integer result=0;
         if(value%2==1){
             result+=value;
             value-=1;
         }
-        int first=0;
-        int second=value;
-
-        while(first!=second){
-            result+=first+second;
-            first++;second--;
-        }
-        result+=first;
+        int HalfNumber=value/2;
+        result+=HalfNumber*value;
+        result+=HalfNumber;
         return result.toString();
     }
 
