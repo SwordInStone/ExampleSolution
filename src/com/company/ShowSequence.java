@@ -17,5 +17,6 @@ public class ShowSequence {
         result+=HalfNumber;
         return result.toString();
     }
+    //LoL
 
 }
